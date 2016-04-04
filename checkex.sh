@@ -127,5 +127,6 @@ sudo sendmail boris@boriszaydlin.com < /tmp/exploits.log
 echo "=========================="
 echo "       REPORT SENT"
 echo "=========================="
+cat /tmp/exploits.log
 rm /tmp/exploits.log
 
