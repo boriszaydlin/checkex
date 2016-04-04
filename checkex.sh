@@ -9,6 +9,16 @@ echo "===="
 echo "===="
 echo "===="
 echo "===="
+grep -rwn '$jawhtmkz' /home >> /tmp/exploits.log
+echo "•••••••••••••••••••••••••••••••••••••••••••••••••••••"
+grep -rwn '10lbcZ8vGZ2MuwifLsWwI' /home >> /tmp/exploits.log
+echo "••••••••••••••••••••••••••••••••••••••••••••••••••••"
+
+grep -rwn '$mjagirjhf' /home >> /tmp/exploits.log
+echo "•••••••••••••••••••••••••••••••••••••••••••••••••••"
+grep -rwn '$uopjierpm' /home >> /tmp/exploits.log
+echo "••••••••••••••••••••••••••••••••••••••••••••••••••"
+
 grep -rwn 'rondxlinmzcox' /home >> /tmp/exploits.log
 echo "•••••••••••••••••••••••••••••••••••••••••••••••••"
 grep -rwn 'cpuE2spWF' /home >> /tmp/exploits.log
@@ -110,7 +120,7 @@ grep -rwn 'Symlink Function is DisableD' /home >> /tmp/exploits.log
 echo "•"
 grep -rwn 'JHRpbWVfc2hlbGwgPSAiIi5kYXRlKCJ' /home >> /tmp/exploits.log
 echo ""
-sendmail boris@boriszaydlin.com < /tmp/exploits.log
+sudo sendmail boris@boriszaydlin.com < /tmp/exploits.log
 echo "=========================="
 echo "       REPORT SENT"
 echo "=========================="
