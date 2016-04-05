@@ -4,6 +4,13 @@ echo "  Checking for exploits"
 echo "=========================="
 echo "Subject: Exploits scan" >> /tmp/exploits.log
 echo "===="
+
+grep -rwn '$xnedsfj' /home >> /tmp/exploits.log
+echo "•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••"
+grep -rwn 'x0uQrgyZmKs80Wipw' /home >> /tmp/exploits.log
+echo "••••••••••••••••••••••••••••••••••••••••••••••••••••••••••"
+
+
 grep -rwn 'd730ca2c' /home >> /tmp/exploits.log
 echo "•••••••••••••••••••••••••••••••••••••••••••••••••••••••••"
 grep -rwn 'maad91c31' /home >> /tmp/exploits.log
